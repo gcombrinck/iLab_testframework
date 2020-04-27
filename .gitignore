@@ -1,0 +1,7 @@
+.idea
+allure-results
+allure-report
+screenshots
+target
+debug.log
+iLab_testframework.iml

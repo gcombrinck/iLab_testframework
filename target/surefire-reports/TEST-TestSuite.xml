@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="6.053" tests="14" errors="0" skipped="13" failures="1">
+  <properties>
+    <property name="java.specification.version" value="14"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\apache-maven\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Africa/Johannesburg"/>
+    <property name="maven.conf" value="C:\apache-maven\apache-maven-3.6.3\bin\../conf"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ZA"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="C:\apache-maven\apache-maven-3.6.3\bin\.."/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\HealthQ"/>
+    <property name="user.language" value="en"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-04-14"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-14.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="14.0.1+7"/>
+    <property name="user.name" value="HealthQ"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\HealthQ\AppData\Local\Temp\"/>
+    <property name="java.version" value="14.0.1"/>
+    <property name="user.dir" value="C:\gcombrinck\iLab_testframework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\gcombrinck\iLab_testframework"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\HealthQ\Documents\Downloads\chromedriver.exe;C:\Program Files\Kubernetes\Minikube;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\apache-maven\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk-14.0.1\bin;C:\Users\HealthQ\scoop\shims;C:\Users\HealthQ\AppData\Local\Microsoft\WindowsApps;C:\Users\HealthQ\AppData\Local\atom\bin;C:\Users\HealthQ\AppData\Roaming\npm;C:\Users\HealthQ\Documents\Downloads\chromedriver.exe;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="14.0.1+7"/>
+    <property name="classworlds.conf" value="C:\apache-maven\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="library.jansi.path" value="C:\apache-maven\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="java.class.version" value="58.0"/>
+  </properties>
+  <testcase name="testUp" classname="gcombrinck.MyTest" time="3.569">
+    <failure message="&#10;Parameter &apos;browser&apos; is required by BeforeClass on method testUp but has not been marked @Optional or defined&#10;" type="org.testng.TestNGException">org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeClass on method testUp but has not been marked @Optional or defined
+
+</failure>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="goHome" classname="gcombrinck.MyTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[6333127858
+]]></system-out>
+  </testcase>
+  <testcase name="goHome" classname="gcombrinck.MyTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="goHome" classname="gcombrinck.MyTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[6867556811
+]]></system-out>
+  </testcase>
+  <testcase name="goHome" classname="gcombrinck.MyTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="ApplyJobWithCSVDataProvider" classname="gcombrinck.MyTest" time="0">
+    <skipped message="&#10;Parameter &apos;browser&apos; is required by BeforeClass on method testUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="ApplyJobWithCSVDataProvider" classname="gcombrinck.MyTest" time="0">
+    <skipped message="&#10;Parameter &apos;browser&apos; is required by BeforeClass on method testUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="recordFailure" classname="gcombrinck.MyTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="recordFailure" classname="gcombrinck.MyTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="recordFailure" classname="gcombrinck.MyTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="recordFailure" classname="gcombrinck.MyTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="ApplyJobWithDataProvider" classname="gcombrinck.MyTest" time="0">
+    <skipped message="&#10;Parameter &apos;browser&apos; is required by BeforeClass on method testUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="ApplyJobWithStaticData" classname="gcombrinck.MyTest" time="0">
+    <skipped message="&#10;Parameter &apos;browser&apos; is required by BeforeClass on method testUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="tearDown" classname="gcombrinck.MyTest" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>
