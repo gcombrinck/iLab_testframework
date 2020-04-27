@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite">
+    <test name="ChromeTest">
+        <parameter name="browser" value="firefox" />
+        <classes>
+            <class name="gcombrinck.MyTest">
+            </class>
+        </classes>
+    </test>
+    <test name="FireFoxTest">
+        <parameter name="browser" value="firefox" />
+        <classes>
+            <class name="gcombrinck.MyTest">
+            </class>
+        </classes>
+    </test>
+</suite>
