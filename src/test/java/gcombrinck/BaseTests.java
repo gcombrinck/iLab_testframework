@@ -10,9 +10,7 @@ import pages.HomePage;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.List;
 import java.util.concurrent.TimeUnit;
-
 import static org.testng.Assert.*;
 
 public class BaseTests {
@@ -22,11 +20,14 @@ public class BaseTests {
     @Parameters("browser")
     @BeforeClass
     public void testUp(String browser) {
-        if (browser.equals("chrome")) {
+        System.out.println("*** Running Tests on " +browser.toUpperCase()+" ***");
+        if (browser.equalsIgnoreCase("chrome")) {
+            System.out.println("*** Initializing Webdriver ***");
             System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
             driver = new ChromeDriver();
+            System.out.println(driver);
         }
-        if (browser.equals("firefox")) {
+        if (browser.equalsIgnoreCase("firefox")) {
             System.setProperty("webdriver.gecko.driver", "resources/geckodriver.exe");
             driver = new FirefoxDriver();
         }

@@ -1,6 +1,5 @@
 package gcombrinck;
 
-import com.opencsv.CSVReader;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import pages.CareersPage;
@@ -8,12 +7,8 @@ import pages.CountryPage;
 import pages.JobPage;
 import utils.GenerateRandom;
 import utils.ReadCSV;
-
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.Arrays;
-import java.util.Iterator;
 import java.util.List;
 
 import static org.testng.Assert.assertEquals;

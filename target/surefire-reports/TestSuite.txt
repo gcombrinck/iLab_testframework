@@ -1,10 +1,21 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 14, Failures: 1, Errors: 0, Skipped: 13, Time elapsed: 6.053 s <<< FAILURE! - in TestSuite
-testUp(gcombrinck.MyTest)  Time elapsed: 3.569 s  <<< FAILURE!
-org.testng.TestNGException: 
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 111.066 s <<< FAILURE! - in TestSuite
+ApplyJobWithCSVDataProvider(gcombrinck.MyTest)  Time elapsed: 13.408 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":".wpjb\-form\-job\-apply"}
+  (Session info: chrome=81.0.4044.122)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MCKENZIECOMBRIN', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.20 (f006328e39a97..., userDataDir: C:\Users\HealthQ\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52566}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1e5602d08ec21d53d0d13cee4501bff1
+*** Element info: {Using=class name, value=wpjb-form-job-apply}
+	at gcombrinck.MyTest.ApplyJobWithCSVDataProvider(MyTest.java:74)
 
-Parameter 'browser' is required by BeforeClass on method testUp but has not been marked @Optional or defined
-
+ApplyJobWithDataProvider(gcombrinck.MyTest)  Time elapsed: 18.444 s  <<< FAILURE!
+java.lang.AssertionError: Incorrect error message. expected [You need to upload at least one file.] but found [Email address is invalid]
+	at gcombrinck.MyTest.ApplyJobWithDataProvider(MyTest.java:54)
 

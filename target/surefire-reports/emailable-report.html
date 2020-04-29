@@ -9,43 +9,39 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Surefire suite</th></tr>
-<tr><td><a href="#t0">Surefire test</a></td><td class="num">0</td><td class="num attn">4</td><td class="num">0</td><td class="num">0</td><td class="num">934</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Surefire test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">108 503</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">gcombrinck.MyTest</td><td><a href="#m0">testUp</a></td><td rowspan="1">1587978169197</td><td rowspan="1">-1587978169197</td></tr><tr><th colspan="4">Surefire test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="9">gcombrinck.MyTest</td><td><a href="#m1">goHome</a></td><td rowspan="4">1587978169632</td><td rowspan="4">-1587978169632</td></tr><tr class="skippedeven"><td><a href="#m2">goHome</a></td></tr><tr class="skippedeven"><td><a href="#m3">goHome</a></td></tr><tr class="skippedeven"><td><a href="#m4">goHome</a></td></tr><tr class="skippedeven"><td><a href="#m5">recordFailure</a></td><td rowspan="4">1587978169711</td><td rowspan="4">-1587978169711</td></tr><tr class="skippedeven"><td><a href="#m6">recordFailure</a></td></tr><tr class="skippedeven"><td><a href="#m7">recordFailure</a></td></tr><tr class="skippedeven"><td><a href="#m8">recordFailure</a></td></tr><tr class="skippedeven"><td><a href="#m9">tearDown</a></td><td rowspan="1">1587978170036</td><td rowspan="1">-1587978170036</td></tr><tr><th colspan="4">Surefire test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="4">gcombrinck.MyTest</td><td><a href="#m10">ApplyJobWithCSVDataProvider</a></td><td rowspan="2">1587978169680</td><td rowspan="2">0</td></tr><tr class="skippedeven"><td><a href="#m11">ApplyJobWithCSVDataProvider</a></td></tr><tr class="skippedeven"><td><a href="#m12">ApplyJobWithDataProvider</a></td><td rowspan="1">1587978169719</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m13">ApplyJobWithStaticData</a></td><td rowspan="1">1587978169875</td><td rowspan="1">0</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">gcombrinck.MyTest</td><td><a href="#m0">ApplyJobWithCSVDataProvider</a></td><td rowspan="1">1587980657007</td><td rowspan="1">13326</td></tr><tr class="failedeven"><td><a href="#m1">ApplyJobWithDataProvider</a></td><td rowspan="1">1587980701472</td><td rowspan="1">18448</td></tr><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">gcombrinck.MyTest</td><td><a href="#m2">ApplyJobWithCSVDataProvider</a></td><td rowspan="1">1587980677930</td><td rowspan="1">18463</td></tr><tr class="passedeven"><td><a href="#m3">ApplyJobWithStaticData</a></td><td rowspan="1">1587980724116</td><td rowspan="1">15238</td></tr></tbody>
 </table>
-<h2>Surefire test</h2><h3 id="m0">gcombrinck.MyTest#testUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
-Parameter &apos;browser&apos; is required by BeforeClass on method testUp but has not been marked @Optional or defined
-
+<h2>Surefire test</h2><h3 id="m0">gcombrinck.MyTest#ApplyJobWithCSVDataProvider</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Automation TestUser 3</td><td>automationAssessment@iLABQuality.com</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.wpjb\-form\-job\-apply&quot;}
+  (Session info: chrome=81.0.4044.122)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MCKENZIECOMBRIN&apos;, ip: &apos;192.168.99.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.20 (f006328e39a97..., userDataDir: C:\Users\HealthQ\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52566}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1e5602d08ec21d53d0d13cee4501bff1
+*** Element info: {Using=class name, value=wpjb-form-job-apply}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at utils.HelperMethods.scrollToElement(HelperMethods.java:18)
+	at pages.JobPage.clickApplyButton(JobPage.java:27)
+	at gcombrinck.MyTest.ApplyJobWithCSVDataProvider(MyTest.java:74)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
-... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">gcombrinck.MyTest#goHome</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">gcombrinck.MyTest#goHome</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">gcombrinck.MyTest#goHome</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">gcombrinck.MyTest#goHome</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">gcombrinck.MyTest#recordFailure</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">gcombrinck.MyTest#recordFailure</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">gcombrinck.MyTest#recordFailure</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">gcombrinck.MyTest#recordFailure</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m9">gcombrinck.MyTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m10">gcombrinck.MyTest#ApplyJobWithCSVDataProvider</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
-Parameter &apos;browser&apos; is required by BeforeClass on method testUp but has not been marked @Optional or defined
-
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">gcombrinck.MyTest#ApplyJobWithDataProvider</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Automation TestUser 2</td><td>automationAssessment@iLABQuality.com</td><td>090 500 3101</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">java.lang.AssertionError: Incorrect error message. expected [You need to upload at least one file.] but found [Email address is invalid]
+	at gcombrinck.MyTest.ApplyJobWithDataProvider(MyTest.java:54)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
-... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m11">gcombrinck.MyTest#ApplyJobWithCSVDataProvider</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
-Parameter &apos;browser&apos; is required by BeforeClass on method testUp but has not been marked @Optional or defined
-
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
-... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m12">gcombrinck.MyTest#ApplyJobWithDataProvider</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
-Parameter &apos;browser&apos; is required by BeforeClass on method testUp but has not been marked @Optional or defined
-
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
-... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m13">gcombrinck.MyTest#ApplyJobWithStaticData</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
-Parameter &apos;browser&apos; is required by BeforeClass on method testUp but has not been marked @Optional or defined
-
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
-... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">gcombrinck.MyTest#ApplyJobWithCSVDataProvider</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Automation TestUser 4</td><td>automationAssessment@iLABQuality.com</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">gcombrinck.MyTest#ApplyJobWithStaticData</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
